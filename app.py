@@ -3,7 +3,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 
 
 
-PORT = 8002
+PORT = 8000
 
 
 
