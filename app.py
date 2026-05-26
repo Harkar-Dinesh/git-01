@@ -19,7 +19,7 @@ class MyHandler(BaseHTTPRequestHandler):
 
         self.wfile.write(b"<h1>Hello from Python Server</h1>")
 
-server = HTTPServer(("0.0.0.0", PORT), MyHandler)
+server = HTTPServer(("0.0.0.1", PORT), MyHandler)
 
 print(f"Server running on port {PORT}")
 
