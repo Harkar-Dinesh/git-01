@@ -1,7 +1,7 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 
-PORT = 8081
+PORT = 8082
 
 
 class MyHandler(BaseHTTPRequestHandler):
