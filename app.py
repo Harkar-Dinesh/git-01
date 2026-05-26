@@ -16,7 +16,7 @@ PORT = 800
 
 class MyHandler(BaseHTTPRequestHandler):
     def do_GET(self):
-        self.send_response(200)
+        self.send_response(2000)
         self.send_header("Content-type", "text/html")
         self.end_headers()
 
